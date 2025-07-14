@@ -11,7 +11,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program. If not, see <https://www.gnu.org/licenses/>.
 #
-# © 2025 Eren Ogrul - iam.bearen@pm.me
+# © 2025 Eren Öğrül - termapp@pm.me
 
 import curses
 import csv
@@ -184,7 +184,11 @@ def confirm_dialog(stdscr, message):
         elif key in [ord('n'), ord('N')]:
             return False
 
-def main(stdscr):
+def main():
+    import curses
+    curses.wrapper(_main)
+
+def _main(stdscr):
     data = load_data()
     get_today_entry(data)
     selected_idx = 0
@@ -210,6 +214,3 @@ def main(stdscr):
             if confirm:
                 data.remove(entry)
                 selected_idx = max(0, selected_idx - 1)
-
-if __name__ == "__main__":
-    curses.wrapper(main)
