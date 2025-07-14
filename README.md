@@ -36,13 +36,13 @@ Last 15 Days - Distance
 
 ```bash
 # Pip
-pip install runtracker
+pip install runtracked
 
 # (Optional) GitHub
 git clone https://github.com/bearenbey/run-tracker.git
 cd run-tracker
 pip install .
-runtracker
+runtracked
 ```
 
 ---

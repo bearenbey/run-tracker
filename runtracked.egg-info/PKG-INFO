@@ -1,5 +1,5 @@
 Metadata-Version: 2.4
-Name: runtracker
+Name: runtracked
 Version: 0.1.0
 Summary: A terminal-based running tracker with CSV logging and ASCII line charts
 Author-email: Eren Öğrül <termapp@pm.me>
@@ -45,13 +45,13 @@ Last 15 Days - Distance
 
 ```bash
 # Pip
-pip install runtracker
+pip install runtracked
 
 # (Optional) GitHub
 git clone https://github.com/bearenbey/run-tracker.git
 cd run-tracker
 pip install .
-runtracker
+runtracked
 ```
 
 ---

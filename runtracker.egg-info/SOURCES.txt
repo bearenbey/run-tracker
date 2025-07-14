@@ -1,9 +1,0 @@
-README.md
-pyproject.toml
-runtracker/__init__.py
-runtracker/cli.py
-runtracker.egg-info/PKG-INFO
-runtracker.egg-info/SOURCES.txt
-runtracker.egg-info/dependency_links.txt
-runtracker.egg-info/entry_points.txt
-runtracker.egg-info/top_level.txt

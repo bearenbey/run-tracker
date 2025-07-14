@@ -1,5 +1,5 @@
 [project]
-name = "runtracker"
+name = "runtracked"
 version = "0.1.0"
 description = "A terminal-based running tracker with CSV logging and ASCII line charts"
 readme = "README.md"
