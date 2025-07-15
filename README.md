@@ -32,17 +32,26 @@ Last 15 Days - Distance
 
 ---
 
-## 🚀 Installation
+## Installation
+
+Install via pip:
 
 ```bash
-# Pip
 pip install runtracked
+```
 
-# (Optional) GitHub
+Then run the app:
+
+```bash
+runtracker
+```
+
+To install from source:
+
+```bash
 git clone https://github.com/bearenbey/run-tracker.git
 cd run-tracker
 pip install .
-runtracked
 ```
 
 ---
